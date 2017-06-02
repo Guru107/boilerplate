@@ -1,7 +1,6 @@
 {
 	"name": "boilerplate",
 	"version": "1.0.0",
-	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
 		"start": "better-npm-run dev",
@@ -28,12 +27,14 @@
 		}
 	},
 	"dependencies": {
+		"howler": "^2.0.3",
 		"material-ui": "^0.18.1",
 		"prop-types": "15.5.8",
 		"react": "15.5.4",
 		"react-dom": "15.5.4",
 		"react-router": "4.1.1",
-		"react-router-dom": "4.1.1"
+		"react-router-dom": "4.1.1",
+		"react-tap-event-plugin": "^2.0.1"
 	},
 	"devDependencies": {
 		"autoprefixer": "6.7.7",
